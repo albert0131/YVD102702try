@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         wv.loadUrl("file:///android_asset/index.html");
     }
 
+    //  檢查按back鍵後可以回到前頁
     @Override
     public void onBackPressed() {
         if (wv.getUrl().contains("index.html"))
