@@ -14,7 +14,8 @@ public class MainActivity extends AppCompatActivity {
         wv = (WebView) findViewById(R.id.webView);
         wv.setWebChromeClient(new WebChromeClient());
         wv.getSettings().setJavaScriptEnabled(true);
-        wv.loadUrl("https://tw.mobi.yahoo.com");
+        // wv.loadUrl("https://tw.mobi.yahoo.com");
+        wv.loadUrl("file:///android_asset/index.html");
 
     }
 }
